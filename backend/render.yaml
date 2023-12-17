@@ -1,0 +1,9 @@
+services:
+- type: web
+  name: backend
+  env: node
+  buildCommand: npm i
+  startCommand: node index.js
+  envVars:
+  - key: NODE_ENV
+    value: production
