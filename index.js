@@ -29,7 +29,7 @@ app.use(cors());
 app.use("/students", studentRoute);
 
 // PORT
-const port = "https://mern-crud-vabs10.netlify.app/";
+const port = 8100;
 const server = app.listen(port, () => {
   console.log("Connected to port " + port);
 });
