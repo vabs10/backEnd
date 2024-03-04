@@ -29,7 +29,7 @@ app.use(cors());
 app.use("/students", studentRoute);
 
 // PORT
-const port = 8100;
+const port = "https://mern-backend-t1m9.onrender.com";
 const server = app.listen(port, () => {
   console.log("Connected to port " + port);
 });
